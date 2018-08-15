@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:numeric="integer"
+        android:id="@+id/dialog_et_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/please_number" />
+
+    <EditText
+        android:numeric="integer"
+        android:id="@+id/dialog_et_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/please_call_size" />
+
+
+    <RadioGroup
+        android:id="@+id/dialog_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rg_rb_ring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/ring_to_end" />
+
+        <RadioButton
+            android:id="@+id/rg_rb_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/listener_to_end" />
+
+    </RadioGroup>
+
+
+</LinearLayout>

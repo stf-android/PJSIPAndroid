@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="login_et">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/x20</item>
+        <item name="android:layout_marginRight">@dimen/x20</item>
+        <item name="android:background">@drawable/radius_solid_login_et</item>
+        <item name="android:paddingBottom">@dimen/x10</item>
+        <item name="android:paddingLeft">@dimen/x8</item>
+        <item name="android:paddingTop">@dimen/x10</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textSize">@dimen/x12</item>
+    </style>
+
+
+    <!-- 主界面  radioButton 的样式  -->
+    <style name="main_rb">
+        <item name="android:textSize">@dimen/x10</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <!-- 我的界面，180次 的样式 -->
+    <style name="fg_me_tb_big">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/x12</item>
+        <item name="android:text">180次</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/x16</item>
+    </style>
+
+    <!-- 我的界面，已使用次数 的样式 -->
+    <style name="fg_me_tb_small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/main_tv_false</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/x10</item>
+        <item name="android:text">已使用次数</item>
+        <item name="android:textSize">@dimen/x10</item>
+    </style>
+
+    <style name="OnePxActStyle">
+        <!-- 窗体背景颜色为透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 窗体没有边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 窗体不包含标题栏 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 窗体悬浮 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 自定义TitleBar时去掉多余的阴影-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 不允许窗体背景变暗-->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 窗体切换无动画-->
+        <item name="android:windowAnimationStyle">@null</item>
+        <!-- 禁用窗口的预览动画-->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoDisplay">false</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,164 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cpsc.cpsc_pgsip.fragment.MeFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x120"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fg_me_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/x12"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:text="Name"
+                android:textSize="@dimen/x24" />
+
+            <TextView
+                android:id="@+id/fg_me_tv_state"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/x12"
+                android:layout_marginTop="@dimen/x8"
+                android:layout_weight="1"
+                android:text="state"
+                android:textSize="@dimen/x10" />
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/fg_me_img_heard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/x20"
+            android:layout_marginRight="@dimen/x12"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x12"
+        android:text="@string/fg_me_belowHeard"
+        android:textColor="@color/main_tv_false"
+        android:textSize="@dimen/x10" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x10"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fg_me_tv_hasSize"
+                style="@style/fg_me_tb_big"
+                android:text="180次" />
+
+            <TextView
+                style="@style/fg_me_tb_small"
+                android:text="@string/fg_me_tv_hasSize" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="@dimen/x1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/main_line" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/fg_me_tv_noHasSize"
+                style="@style/fg_me_tb_big"
+                android:layout_gravity="center"
+                android:text="180次" />
+
+            <TextView
+                style="@style/fg_me_tb_small"
+                android:layout_gravity="center"
+                android:text="@string/fg_me_tv_noHasSize" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/x1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/main_line" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fg_me_tv_money"
+                style="@style/fg_me_tb_big"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/x20"
+                android:text="200元" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/fg_me_tv_money"
+                android:layout_alignRight="@+id/fg_me_tv_money"
+                android:layout_below="@+id/fg_me_tv_money"
+                android:layout_marginRight="@dimen/x12"
+                android:text="@string/fg_me_tv_money"
+                android:textColor="@color/main_tv_false"
+                android:textSize="@dimen/x10" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x4"
+        android:layout_marginTop="@dimen/x10"
+        android:background="@color/main_line" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fg_me_rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

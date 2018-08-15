@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="white">#fcfcfc</color>
+    <color name="black">#020202</color>
+
+    <!-- 主界面颜色选择  -->
+    <color name="main_tv_true">#CE413A</color>
+    <color name="main_tv_false">#525252</color>
+
+    <!-- 主界面 下面线的颜色  -->
+    <color name="main_line">#DBDBDB</color>
+
+
+    <color name="green">#4bda67</color>
+    <color name="red">#ff3a2e</color>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/x40"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginTop="@dimen/x30"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:src="@mipmap/call_delete" />
+
+        <TextView
+            android:id="@+id/act_call_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x60"
+            android:layout_weight="4"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:textSize="@dimen/x30"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/act_call_img"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/x40"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x30"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:src="@mipmap/call_delete" />
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/act_call_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x40"
+        android:layout_marginRight="@dimen/x40"
+        android:layout_marginTop="@dimen/x30" />
+
+</LinearLayout>

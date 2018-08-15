@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_act_sipcall_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/item_act_sipcall_tv_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x8"
+        android:text="18856907654"
+        android:textSize="@dimen/x16" />
+
+    <TextView
+        android:id="@+id/item_act_sipcall_tv_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x8"
+        android:text="呼叫次数: 10" />
+
+    <TextView
+        android:id="@+id/item_act_sipcall_tv_success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x8"
+        android:text="呼叫成功: 10" />
+
+    <TextView
+        android:id="@+id/item_act_sipcall_tv_calltype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/x10"
+        android:layout_marginLeft="@dimen/x8"
+        android:text="呼叫类型: 响铃挂断" />
+
+
+</LinearLayout>

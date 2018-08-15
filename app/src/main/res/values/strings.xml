@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">客服热线电话</string>
+
+
+    <string name="login_account">请输入账号</string>
+    <string name="login_pwd">请输入密码</string>
+    <string name="login_login">登录</string>
+    <string name="login_error">账号密码有误，请重新输入</string>
+    <string name="main_me">我的</string>
+
+    <string name="fg_me_belowHeard">通讯服务剩余用量</string>
+    <string name="fg_me_tv_money">金额</string>
+    <string name="fg_me_tv_hasSize">已使用次数</string>
+    <string name="fg_me_tv_noHasSize">剩余次数</string>
+    <string name="exitApp">再按一次推出应用</string>
+
+    <string name="item_fg_me_rv_sip">SIP设置</string>
+    <string name="heardImg">头像</string>
+
+
+    <string name="Sip_IP">IP</string>
+    <string name="Sip_Account">账号</string>
+    <string name="Sip_Pwd">密码</string>
+    <string name="sip_please_ip">请输入SIP地址</string>
+    <string name="sip_please_account">请输入SIP账号</string>
+    <string name="sip_please_pwd">请输入SIP密码</string>
+    <string name="hint">提示</string>
+    <string name="positive">确定</string>
+    <string name="negative">取消</string>
+    <string name="SipIsChange">sip账号已经修改，是否重新登录</string>
+
+    <string name="rgeState">状态:</string>
+    <string name="item_fg_me_rv_sip_music">来电铃声</string>
+    <string name="item_fg_me_rv_sip_callsetting">通话设置（催收）</string>
+    <string name="item_fg_me_rv_sip_callsetting2">通话设置（热线）</string>
+    <string name="addCallNumber">添加号码设置</string>
+    <string name="please_number">请输入号码</string>
+    <string name="ring_to_end">对方响铃就挂断</string>
+    <string name="listener_to_end">对方接听就挂断</string>
+    <string name="please_call_size">请输入呼叫次数</string>
+    <string name="call_size">呼叫次数:</string>
+    <string name="call_calltype">呼叫类型:</string>
+    <string name="are_you_sure_to_delete">你确定删除么？</string>
+    <string name="call_success">呼叫成功：</string>
+
+    <string name="please_call_finish">当前设置的呼叫次数已经完成</string>
+    <string name="login_permission">没有权限，请在设置界面设置</string>
+
+    <string name="intent_error">网络异常</string>
+</resources>

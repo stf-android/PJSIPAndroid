@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/x10"
+    android:orientation="vertical">
+
+
+    <View
+        android:id="@+id/item_call_number_view"
+        android:layout_width="@dimen/x65"
+        android:layout_height="@dimen/x65"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/item_circle"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/item_call_number_number"
+        android:layout_width="@dimen/x65"
+        android:layout_height="@dimen/x65"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:paddingBottom="@dimen/x20"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/x28" />
+
+    <TextView
+        android:id="@+id/item_call_number_letter"
+        android:layout_width="@dimen/x65"
+        android:layout_height="@dimen/x65"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:paddingTop="@dimen/x26"
+        android:text="ABC"
+        android:textColor="@color/black"
+        android:textSize="@dimen/x9" />
+
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:padding="@dimen/x14"
+        android:id="@+id/item_call_number_img"
+        android:layout_width="@dimen/x65"
+        android:layout_height="@dimen/x65"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/item_circle_green"
+        android:gravity="center"
+        android:visibility="gone" />
+
+</FrameLayout>

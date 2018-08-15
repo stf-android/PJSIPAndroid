@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cpsc.cpsc_pgsip.act.MainActivity">
+
+    <include layout="@layout/include_top"/>
+
+    <FrameLayout
+        android:paddingTop="@dimen/x10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout
+            android:id="@+id/main_fl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/x42" />
+
+
+        <RadioGroup
+            android:id="@+id/main_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/x2"
+            android:layout_marginTop="@dimen/x8"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                style="@style/main_rb"
+                android:drawableTop="@drawable/select_main_home"
+                android:text="通讯录" />
+
+            <RadioButton
+                style="@style/main_rb"
+                android:drawableTop="@drawable/select_main_video"
+                android:text="历史" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <RadioButton
+                style="@style/main_rb"
+                android:drawableTop="@drawable/select_main_msg"
+                android:text="消息" />
+
+            <RadioButton
+                style="@style/main_rb"
+                android:drawableTop="@drawable/select_main_me"
+                android:text="@string/main_me" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/x42"
+            android:background="@color/main_line" />
+
+
+        <ImageView
+            android:id="@+id/main_add"
+            android:layout_width="@dimen/x36"
+            android:layout_height="@dimen/x36"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="@dimen/x14"
+            android:background="@drawable/round_img_background"
+            android:padding="@dimen/x6"
+            android:src="@mipmap/main_add" />
+    </FrameLayout>
+
+
+</LinearLayout>
